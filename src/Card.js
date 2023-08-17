@@ -1,12 +1,13 @@
 import React from "react";
 
-const Card = (props) => {
+
+const Card = ({photo, name, position}) => {
     return (
         <div className="bg-yellow dib br3 pa3 ma2 grow bw2 shadow-5">
-            <img src={props.photo} alt="player" />
+            <img src={photo} alt="player" />
             <div>
-                <h2>{props.name}</h2>
-                <p>{props.position}</p>
+                <h2>{name}</h2>
+                <p>{position}</p>
             </div>
         </div>
     );
