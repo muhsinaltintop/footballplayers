@@ -10,4 +10,15 @@
 
   h1 {
     font-family: 'Galatasaray';
+    font-weight: 200;
+    color: #fbba00;
+   
+  }
+
+  .logo {
+    height: 100px;
+    margin-top: 20px;    
+  }
+  .logo-title {
+    clear: both;
   }

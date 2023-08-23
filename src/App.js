@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import CardList from "./CardList";
 import { players } from "./players";
 import SearchBox from "./SearchBox";
+import './App.css';
 
 function App() {
     const [searchTerm, setSearchTerm] = useState("");
@@ -15,8 +16,11 @@ function App() {
     })
     
     return (
-        <div className="tc"> 
+        <div className="tc">
+            <div className="logo-title">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Galatasaray_4_Sterne_Logo.svg/1200px-Galatasaray_4_Sterne_Logo.svg.png" alt=""  className="logo"/>
             <h1>GALATASARAY</h1>
+            </div>
             <SearchBox searchChange={onSearchChange} />
         {/* <SearchBox onChange={onSearchChange} /> */}
         <CardList players={filteredPlayer}/>
