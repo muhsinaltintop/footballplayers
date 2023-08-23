@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Galatasaray';
+    src: local('Galatasaray Regular'), local('Galatasaray-Regular'),
+        url('Galatasaray-Regular.woff2') format('woff2'),
+        url('Galatasaray-Regular.woff') format('woff'),
+        url('Galatasaray-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1 {
+    font-family: 'Galatasaray';
+  }
